@@ -1,0 +1,21 @@
+// to add a separate file to compile and draw from just add another .scss file without an underscore for the filename and it will get compiled into the css folder
+/* Importing Framework */
+
+
+
+@import './src/sass/baseUtilities/_variables.scss';
+
+/* Importing Bulma Overwrites FIles */ 
+// @import './src/sass/bulmaOverwrites/_customBulma.scss'; 
+
+/* Importing All Base Utilities */
+@import './src/sass/baseUtilities/_mixins.scss';
+@import './src/sass/baseUtilities/_placeholders.scss';  
+ 
+/* Importing Layout FIles */
+@import './src/sass/pages/_global.scss';
+@import './src/sass/pages/_index.scss';
+         
+@import './src/sass/_sandyBulma.scss';
+@import './src/sass/_oldStyles.scss';
+
